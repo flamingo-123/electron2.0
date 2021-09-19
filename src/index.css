@@ -1,0 +1,131 @@
+:root {
+
+  --neubug: #ebdfde --neushadowdark:#c8bebd --neushadowlight:#ffffff highlight:#fd746c
+}
+
+html,
+body {
+  background-color: #ebdfde;
+}
+
+
+button {
+  height: 40px;
+  width: 60px;
+  border-radius: 3px;
+  border: none;
+  margin: 5px;
+}
+
+
+.neu-s {
+  background-color: #ebdfde;
+  box-shadow: 3px 3px 6px #c8bebd, -3px -3px 6px #ffffff
+}
+
+.neu-s-inset {
+  background-color: #ebdfde;
+  box-shadow: inset 2px 2px 5px #c8bebd, inset -3px -3px 7px #ffffff
+}
+
+.neu-l {
+  background-color: #ebdfde;
+  box-shadow: 3px 3px 6px #c8bebd, -3px -3px 6px #ffffff
+}
+
+.row {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row1 {
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button.neu-s:active,
+.icon.neu-s:active,
+.more.neu-s:active {
+  background-color: #ebdfde;
+  box-shadow: inset 2px 2px 5px #c8bebd, inset -3px -3px 7px #ffffff
+}
+  
+input.neu-s:hover{
+  background-color: #ebdfde;
+  box-shadow: inset 2px 2px 5px #c8bebd, inset -3px -3px 7px #ffffff
+}
+
+.card {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.icon.neu-s:active svg {
+  fill: #fd746c;
+}
+
+.more.neu-s:active a {
+  color: #fd746c;
+}
+
+.more {
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+
+}
+
+.more>a {
+  text-decoration: none;
+  color: black;
+}
+
+.txt {
+  width: 60%;
+  max-width: 900px;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1.25rem;
+}
+
+.txt h1 {
+  text-align: center;
+}
+
+.txt * {
+  text-align: left;
+  
+}
+
+.input {
+  height: 40px;
+  width: 200px;
+  border: none;
+}
+  
+img{
+  width: 300px;
+  height: 25rem;
+}
+  
+.title{
+  position: absolute;
+  left: 2%;
+  width: 100px;
+}
